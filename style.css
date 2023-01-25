@@ -1,0 +1,335 @@
+/*#c92a2a  dark red*/
+/* #ff8787 light shade of red*/
+/* #343a40 dark grey shade */
+/* #adb5bd light shade of grey */
+/* border:1px solid #495057; */
+/* heading= color:#dee2e6; */
+*{
+                    margin:0;
+                    padding:0;
+                    box-sizing: border-box;
+}
+body{
+                    color:#adb5bd;
+                    /* color:#fcc2d7; */
+                    background-color: #343a40;
+                    
+                    font-family: 'Inter', sans-serif;
+}
+h1 , h2 ,h3 , h4 ,h5 , h6{
+                    color:#f8f9fa;
+}
+/* Nav Bar */
+#nav-bar{
+                    display:flex;
+                    justify-content:space-between;
+                    align-items: center;
+                    padding:0.8rem;
+}
+.nav-part{
+                    display:flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+}
+#nav-logo a img{
+                    height:50px;
+                    margin-right:20px;
+
+                    
+}
+.nav-favourite a{
+                    color:white;
+                    text-decoration:none;
+                    font-size:19px;
+                    /* letter-spacing:1px; */
+                    padding:10px;
+                    font-weight: 600;
+                    
+}
+.nav-favourite a:hover{
+                    cursor:pointer;
+                    color:#ff8787;
+                    font-size:21px;
+}
+#nav-form form input{
+                    padding:0.6rem;
+                    border-radius: 1.4rem;
+                    border:none;
+                    
+}
+#nav-form form button{
+                    padding:0.4rem;
+                    border-radius: 0.5rem;
+                    background-color:#c92a2a ;
+                    border:none;
+                    color:white;
+}
+#nav-form form button:hover{
+                    cursor:pointer;
+                    background-color: #ff8787 ;
+}
+#nav-bell img {
+                    height:1.6rem;
+                    margin:0 5px;
+}
+#nav-bell img:hover{
+                    cursor:pointer;
+                    height:1.8rem;
+}
+#nav-profile img{
+                 height :3rem;   
+                 width:3rem;
+                 border-radius:1.5rem;
+}
+#nav-profile img:hover{
+                    cursor:pointer;
+}
+/* Main Body*/
+#main-content{
+display:flex;
+width:1200px;
+height:100vh;
+justify-content: center;
+margin:auto;
+margin-top:50px;
+}
+#main-box1{
+width:70%;
+margin-right:20px;
+}
+/*playlist details*/
+
+#playlist-details{
+background-color: #495057;
+background-color: #212529;
+display:flex;
+justify-content: space-between;
+height:52%;
+width:100%;
+margin-bottom:10px;
+/* background-color: #c92a2a; */
+}
+#details-img{
+width:40%;
+}
+#details-img img{
+height:100%;
+width:100%;
+}
+#details-content{
+width:60%;
+padding:20px;
+margin:auto;
+}
+#details-content p{
+font-size:0.7rem;
+letter-spacing: 1;
+line-height: 15px;
+
+}
+#details-head{
+display:flex;
+justify-content: space-between;
+margin-bottom: 5px;
+}
+#details-bottom{
+display:flex;
+margin-top:40px;
+
+
+}
+#details-bottom div button{
+                    /* background-color:#343a40; */
+                    background-color: #c92a2a;
+                    color:white;
+                    padding:10px 20px 10px 20px;
+                    border:none;
+                    border-radius:20px;
+                    font-weight: 700;
+                    font-size: 15px;
+                    letter-spacing: 1px;
+                    margin-bottom: 4px;
+
+}
+#details-bottom div button:hover{
+                    background-color: #ff8787;
+                    cursor:pointer;
+}
+#follow{
+                    text-decoration: none;
+                    font-size:12px;
+                    color:#adb5bd;
+}
+#follow:hover{
+                    cursor:pointer;
+                    font-size:15px;
+}
+
+
+/* Song List*/
+#song-list{
+width:100%;
+}
+.song{
+height: 60px;
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding:5px;
+margin-bottom:5px;
+background-color:#212529;
+}
+.song-first{
+                    display:flex;
+                    width:20%;
+                    justify-content: space-between;
+                    align-items: center;
+}
+.song-first img{
+                    height:38px;
+                    margin-left:20px;
+                    margin-right:20px;
+}
+.song-first div h3{
+                    width:250px;
+                    font-size:15px;
+                    color:#dee2e6;
+                    letter-spacing: 1.2px;
+}
+.song-first h3~p{
+                    font-size:10px;
+}
+.song-second{
+                    display:flex;
+                    width:10%;
+                    align-items: center;
+                    
+}
+.song-second img{
+                 height:22px;
+                 width:30px;   
+                 background-color:#adb5bd;
+}
+.song-second  div img:last-child{
+                    margin-top:5px;
+                    margin-right:5px;
+}
+.song-second img:hover{
+                    background-color: #c92a2a;
+                    cursor:pointer;
+}
+/* #song-list div.song:nth-of-type(even){
+                    background-color: #212529;
+} */
+div h3:hover{
+                    cursor:pointer;
+                    font-size:17px;
+}
+
+/* similar artist and recently played section*/
+#main-box2{
+width:30%;
+overflow: hidden;
+height:100%;
+}
+/* Similar artists section*/
+#Similar-Artist{
+height:60%;
+width:100%;
+margin-bottom:10px;
+width: 105%;
+height: 60%;
+overflow: auto;
+}
+.artist-head{
+display:flex;
+padding:5px;
+margin:5px;
+letter-spacing: 1.5px;
+justify-content: space-between;
+margin-top:-10px;
+}
+.artist-head a{
+text-decoration: none;
+color:#adb5bd;
+font-size:10px;
+padding-top:3px;
+}
+.artist-head a:hover{
+                    cursor:pointer;
+                    font-size:12px;
+}
+.artist-body{
+                     display:flex;
+                     align-items: center;
+                    /* justify-content: space-between; */
+}
+.artist-body h5:hover{
+                    font-size:15px;
+                    cursor:pointer;
+}
+.artist-body img{
+                    height:90px;
+                    width:100px;
+                    margin-left:10px;
+                    margin-right:25px;
+}
+
+.artist-body p{
+                    font-size:11px;
+                    margin-top:5px;
+
+}
+.artist-name{
+                    margin-right:103px;
+}
+
+.artist-side{
+                    margin-bottom:60px;
+}
+.artist-side img{
+                    height:18px;
+                    width:20px;
+                    margin-bottom:-4px;         
+}
+.artist-side img:hover{
+                    cursor:pointer;
+                    height:21px;
+}
+.artist-side p{
+                    margin-left:10px;
+                    margin-top:0;
+}
+/* Recently Played*/
+#Recently-played{
+width: 105%;
+height: 40%;
+overflow: auto;
+margin-top:50px;
+}
+
+/*Footer*/
+#footer{
+height:60px;
+position:sticky;
+bottom:0;
+}
+#footer {
+width:60%;
+background-color: #a61e4d;
+height:60px;
+margin:auto;
+border-radius:90px;
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding:10px;
+}
+#footer img{
+height:20px;
+}
+#footer img:hover{
+                    height:22px;
+}
+/*HAPPY ENDING :) @bhavya */

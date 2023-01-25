@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Music Player</title>
+                    <link rel="stylesheet" href="style.css">
+                    <!--font awesome link-->
+                    <script src="https://kit.fontawesome.com/74ad6da199.js" crossorigin="anonymous"></script>
+                    <!--font-->
+                    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+     <!--nav bar-->
+     <div id="nav-bar">
+               <div class="nav-part">
+                    <!--logo-->
+                    <div id="nav-logo" class="nav">
+                         <a href="#"><img src="/images/music-b.svg"></a>
+                    </div>
+                    <!--favourites-->
+                    <div class="nav-favourite" class="nav">
+                         <a href="#">Home</a>
+                    </div>
+                    <div class="nav-favourite" class="nav">
+                         <a href="#">Favourites</a>
+                    </div>
+                    <div class="nav-favourite" class="nav">
+                         <a href="#">Playlist</a>
+                    </div>
+                    <div class="nav-favourite" class="nav">
+                         <a href="#">Account</a>
+                    </div>
+               </div>
+               <div class="nav-part">
+                    <!--search baar-->
+                    <div id="nav-form" class="nav">
+                         <form >
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                         </form>
+                    </div>
+                    <!--bell icon-->
+                    
+                    <div id="nav-bell" class="nav">
+                                <img src = "/images/bell.svg" alt="bell">
+                         
+                    </div>
+                    <!--profile pic-->
+                    <div id="nav-profile" class="nav">
+                         <div>
+                                <img src="/images/profile.png" alt="mypic">
+                         </div>
+                    </div>
+               </div>
+     </div>
+     <!--big box which has 4 boxes-->
+     <div id="main-content">
+          <div id="main-box1">
+                    <!-- details of playlist-->
+                    <!--1 image , text , button -->
+                    <div id="playlist-details">
+                        <!--container 1-->
+                        <div id="details-img"><img src=" /images/mainimage.jpg"></div>
+                        <!--container 2-->
+                        <div id="details-content">
+                            <div id="details-head">
+                              <div>
+                               <h2>Rahat Fateh Ali Khan</h2>
+                               <p>Soofy Singer</p>
+                              </div>
+                              <div>
+                               <p>946 Followers</p>
+                              </div>
+                            </div>
+                            <p>Rahat Fateh Ali Khan is a Pakistani Singer, primarily of Qawwali, a form of Sufi devotional music. Khan is one of the biggest and highest paid singers in Pakistan.He is the nephew of Nusrat Fateh Ali Khan, son of Farrukh Fateh Ali Khan and grandson of Qawwali singer Fateh Ali Khan. In addition to Qawwali, he also performs ghazals and other light music. He is also popular as a playback singer in Hindi cinema and the Pakistan film industry.</p>
+
+                            <div id="details-bottom">
+                              <div>
+                                <button href="#">Play All</button>
+                                <p> 70 Tracks | 100 Albums </p>
+                              </div>
+                              <div>
+                                   <a id="follow" href="#">Follow</a>
+                                
+                              </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!--songs in playlist-->
+                    <!--1 song has  = image , text , heart icon , + icon, song-->
+                    <div id="song-list">
+                         <div class="song">
+
+                          <div class="song-first">
+                             <div><p>01</p></div>
+                             <div><img src="/images/akhiyanimage.jpg "></div>
+                             <div>
+                                        <h3>Ankhiyann</h3>
+                                        <p>soofy song</p>
+                             </div>
+                          </div>
+
+                          <div class="song-second">
+                          <div>
+                                <!--heart logo-->
+                                <a href="#">
+                               <img src="/images/heart-regular.svg" alt="image">
+                                </a>
+                             </div>
+                             <div>
+                                <!-- + logo-->
+                               <a href="#">
+                                   <img src="/images/plus-solid.svg" alt="image">
+                               </a>
+                             </div>
+                         </div>
+                         </div>               
+                    
+
+                    <div class="song">
+
+                          <div class="song-first">
+                             <div><p>02</p></div>
+                             <div><img src="/images/bolnahalkeImage.jpg "></div>
+                             <div>
+                                        <h3>Bol Na Halke Halke</h3>
+                                        <p>soofy song</p>
+                             </div>
+                          </div>
+
+                          <div class="song-second">
+                          <div>
+                                <!--heart logo-->
+                                <a href="#">
+                               <img src="/images/heart-regular.svg" alt="image">
+                                </a>
+                             </div>
+                             <div>
+                                <!-- + logo-->
+                               <a href="#">
+                                   <img src="/images/plus-solid.svg" alt="image">
+                               </a>
+                             </div>
+                         </div>
+                         </div>               
+                    
+                    <div class="song">
+
+                          <div class="song-first">
+                             <div><p>03</p></div>
+                             <div><img src="/images/mererashkekamarImage.jpg "></div>
+                             <div>
+                                        <h3>Mere Rashke Kamar</h3>
+                                        <p>soofy song</p>
+                             </div>
+                          </div>
+
+                          <div class="song-second">
+                          <div>
+                                <!--heart logo-->
+                                <a href="#">
+                               <img src="/images/heart-regular.svg" alt="image">
+                                </a>
+                             </div>
+                             <div>
+                                <!-- + logo-->
+                               <a href="#">
+                                   <img src="/images/plus-solid.svg" alt="image">
+                               </a>
+                             </div>
+                         </div>
+                         </div>               
+                    
+                    <div class="song">
+
+                          <div class="song-first">
+                             <div><p>04</p></div>
+                             <div><img src="/images/suriliankhiyowaleImage.jpg "></div>
+                             <div>
+                                        <h3>Surili Ankhiyo Wale</h3>
+                                        <p>soofy song</p>
+                             </div>
+                          </div>
+
+                          <div class="song-second">
+                          <div>
+                                <!--heart logo-->
+                                <a href="#">
+                               <img src="/images/heart-regular.svg" alt="image">
+                                </a>
+                             </div>
+                             <div>
+                                <!-- + logo-->
+                               <a href="#">
+                                   <img src="/images/plus-solid.svg" alt="image">
+                               </a>
+                             </div>
+                         </div>
+                         </div>               
+                    
+                    <div class="song">
+
+                          <div class="song-first">
+                             <div><p>05</p></div>
+                             <div><img src="/images/terebinnahilagtaImage.jpg "></div>
+                             <div>
+                                        <h3>Tere Bina Hi Lagta</h3>
+                                        <p>soofy song</p>
+                             </div>
+                          </div>
+
+                          <div class="song-second">
+                          <div>
+                                <!--heart logo-->
+                                <a href="#">
+                               <img src="/images/heart-regular.svg" alt="image">
+                                </a>
+                             </div>
+                             <div>
+                                <!-- + logo-->
+                               <a href="#">
+                                   <img src="/images/plus-solid.svg" alt="image">
+                               </a>
+                             </div>
+                         </div>
+                         </div>               
+                    </div>
+          </div>
+          <div id="main-box2">
+
+                    <!--Similar Artists section-->
+                    <!--images , text , ... icon , -->
+               <div id="Similar-Artist">
+                    <div>
+                         <div class="artist-head">
+                              <h2>Similar Artists</h2>
+                              <a href="#">View All</a>
+                         </div>
+                    </div>
+                    <div>
+                         <div class="artist-body">
+                              <div><img src="/images/sonu.jpg"></div>
+                              <div class="artist-name">
+                                   <h5>Sonu Nigam</h5>
+                                   <p>Singer</p>
+                              </div>
+                              <div class="artist-side">
+                                   <a><img src="/images/three-dots.svg"></a>
+                                   <p>4.44</p>
+                              </div>
+                         </div>
+                    </div>                   
+                    <div>
+                         <div class="artist-body">
+                              <div><img src="/images/shreya.jpg"></div>
+                              <div class="artist-name">
+                                   <h5>Shreya Ghoshal</h5>
+                                   <p>Singer</p>
+                              </div>
+                              <div class="artist-side">
+                                   <a><img src="/images/three-dots.svg"></a>
+                                   <p>4.44</p>
+                              </div>
+                         </div>
+                    </div>
+                    <div>
+                         <div class="artist-body">
+                              <div><img src="/images/arijit.jpg"></div>
+                              <div class="artist-name">
+                                   <h5>Arijit Singh</h5>
+                                   <p>Singer</p>
+                              </div>
+                              <div class="artist-side">
+                                   <a><img src="/images/three-dots.svg"></a>
+                                   <p>4.44</p>
+                              </div>
+                         </div>
+                    </div>
+                    <div>
+                         <div class="artist-body">
+                              <div><img src="/images/atif.jpg"></div>
+                              <div class="artist-name">
+                                   <h5>Atif Aslam</h5>
+                                   <p>Singer</p>
+                              </div>
+                              <div class="artist-side">
+                                   <a><img src="/images/three-dots.svg"></a>
+                                   <p>4.44</p>
+                              </div>
+                         </div>
+                    </div>
+                    <div>
+                         <div class="artist-body">
+                              <div><img src="/images/sunidhi.jpg"></div>
+                              <div class="artist-name">
+                                   <h5>Sunidhi Chauhan</h5>
+                                   <p>Singer</p>
+                              </div>
+                              <div class="artist-side">
+                                   <a><img src="/images/three-dots.svg"></a>
+                                   <p>4.44</p>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+
+                    <!--Recently played-->
+                    <!--image , heart icon , -->
+                    <div id="Recently-played">
+                         
+		          <div>
+                         <div class="artist-head">
+                              <h2>Recently Played</h2>
+                              <a href="#">View All</a>
+                         </div>
+                    </div>
+                         <div class="song">
+
+                           <div class="song-first">
+                             <div><p>01</p></div>
+                             <div><img src="/images/akhiyanimage.jpg "></div>
+                             <div>
+                                        <h3>Ankhiyann</h3>
+                                        <p>soofy song</p>
+                             </div>
+                          </div>
+
+                        <div class="song-second">
+                          <div>
+                                <!--heart logo-->
+                                <a href="#">
+                               <img src="/images/heart-regular.svg" alt="image">
+                                </a>
+                           </div>
+                         </div>
+                      </div>               
+                      <div class="song">
+
+                          <div class="song-first">
+                             <div><p>02</p></div>
+                             <div><img src="/images/bolnahalkeImage.jpg "></div>
+                             <div>
+                                        <h3>Bol Na Halke Halke</h3>
+                                        <p>soofy song</p>
+                             </div>
+                          </div>
+
+                          <div class="song-second">
+                          <div>
+                                <!--heart logo-->
+                                <a href="#">
+                               <img src="/images/heart-regular.svg" alt="image">
+                                </a>
+                             </div>
+                             
+                         </div>
+                         </div>               
+                         <div class="song">
+
+                          <div class="song-first">
+                             <div><p>03</p></div>
+                             <div><img src="/images/mererashkekamarImage.jpg "></div>
+                             <div>
+                                        <h3>Mere Rashke Kamar</h3>
+                                        <p>soofy song</p>
+                             </div>
+                          </div>
+
+                          <div class="song-second">
+                          <div>
+                                <!--heart logo-->
+                                <a href="#">
+                               <img src="/images/heart-regular.svg" alt="image">
+                                </a>
+                             </div>
+                             <div>
+                                <!-- + logo-->
+                               <a href="#">
+                                   <img src="/images/plus-solid.svg" alt="image">
+                               </a>
+                             </div>
+                         </div>
+                         </div>               
+                         <div class="song">
+
+                          <div class="song-first">
+                             <div><p>04</p></div>
+                             <div><img src="/images/suriliankhiyowaleImage.jpg "></div>
+                             <div>
+                                        <h3>Surili Ankhiyo Wale</h3>
+                                        <p>soofy song</p>
+                             </div>
+                          </div>
+
+                          <div class="song-second">
+                          <div>
+                                <!--heart logo-->
+                                <a href="#">
+                               <img src="/images/heart-regular.svg" alt="image">
+                                </a>
+                             </div>
+                             <div>
+                                <!-- + logo-->
+                               <a href="#">
+                                   <img src="/images/plus-solid.svg" alt="image">
+                               </a>
+                             </div>
+                         </div>
+                         </div>               
+                         <div class="song">
+
+                          <div class="song-first">
+                             <div><p>05</p></div>
+                             <div><img src="/images/terebinnahilagtaImage.jpg "></div>
+                             <div>
+                                        <h3>Tere Bina Hi Lagta</h3>
+                                        <p>soofy song</p>
+                             </div>
+                          </div>
+
+                          <div class="song-second">
+                          <div>
+                                <!--heart logo-->
+                                <a href="#">
+                               <img src="/images/heart-regular.svg" alt="image">
+                                </a>
+                             </div>
+                             <div>
+                                <!-- + logo-->
+                               <a href="#">
+                                   <img src="/images/plus-solid.svg" alt="image">
+                               </a>
+                             </div>
+                         </div>
+                         </div>               
+                    </div>
+          </div>     
+     </div> <!--maincontent-end-->
+     <div id="footer">
+          <div>
+               <a href="#"><img src="/images/musicbar/heart.svg"></a>
+               <a href="#"><img src="/images/musicbar/prohibit.svg"></a>
+          </div>
+          <div>
+               <a href="#"><img src="/images/musicbar/shuffle.svg"></a>
+               <a href="#"><img src="/images/musicbar/skip-back.svg"></a>
+               <a href="#"><img src="/images/musicbar/pause.svg"></a>
+               <a href="#"><img src="/images/musicbar/skip-forward.svg"></a>
+               <a href="#"><img src="/images/musicbar/repeat.svg"></a>
+          </div>
+          <div>
+               <a href="#"><img src="/images/musicbar/queue.svg"></a>
+               <a href="#"><img src="/images/musicbar/speaker-high.svg"></a>
+          </div>   
+     </div>
+</body>
+</html>
